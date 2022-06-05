@@ -21,10 +21,10 @@ $ print-registry --help
     $ print-registry
     https://registry.npmjs.org/
 
-     $ print-registry @myco
+    $ print-registry @myco
     https://npm.myco.com/
 
-     $ print-registry --json
+    $ print-registry --json
     {"url":"https://registry.npmjs.org/"}
 
 ```

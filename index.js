@@ -5,22 +5,22 @@ const registryUrl = require('registry-url')
 
 const cli = meow(
   `
-	Usage
-	  $ print-registry <scope>
+  Usage
+    $ print-registry <scope>
 
   Options
     --json Output registry URL as a JSON object with a "url" property
     --help, -h Show this help text
 
-	Examples
-	  $ print-registry
-	  https://registry.npmjs.org/
+  Examples
+    $ print-registry
+    https://registry.npmjs.org/
 
     $ print-registry @myco
-	  https://npm.myco.com/
+    https://npm.myco.com/
 
     $ print-registry --json
-	  {"url":"https://registry.npmjs.org/"}
+    {"url":"https://registry.npmjs.org/"}
 `,
   {
     flags: {
