@@ -1,6 +1,6 @@
 {
   "name": "print-registry",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Print the configured npm registry URL for a given scope",
   "main": "index.js",
   "scripts": {
