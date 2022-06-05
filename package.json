@@ -1,0 +1,44 @@
+{
+  "name": "print-registry",
+  "version": "1.0.0",
+  "description": "Print the configured npm registry URL for a given scope",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "bin": {
+    "print-registry": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rexxars/print-registry.git"
+  },
+  "keywords": [
+    "npm",
+    "registry",
+    "url",
+    "cli"
+  ],
+  "author": "Espen Hovlandsdal <espen@hovlandsdal.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rexxars/print-registry/issues"
+  },
+  "homepage": "https://github.com/rexxars/print-registry#readme",
+  "dependencies": {
+    "meow": "^9.0.0",
+    "registry-url": "^5.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  },
+  "prettier": {
+    "semi": false,
+    "printWidth": 100,
+    "bracketSpacing": false,
+    "singleQuote": true
+  }
+}
