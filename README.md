@@ -48,7 +48,6 @@ It can also retrieve the registry URL associated with an [npm scope](https://doc
 
 ```bash
 npx print-registry @myco
-
 # output: 'https://custom-registry.com/'
 ```
 
